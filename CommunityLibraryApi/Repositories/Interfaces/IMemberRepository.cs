@@ -1,6 +1,6 @@
-using CommunityLibrary.API.Models.Entities;
+using CommunityLibraryAPI.Models.Entities;
 
-namespace CommunityLibrary.API.Repositories.Interfaces;
+namespace CommunityLibraryAPI.Repositories.Interfaces;
 
 public interface IMemberRepository
 {

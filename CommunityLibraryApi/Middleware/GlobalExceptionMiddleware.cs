@@ -1,8 +1,8 @@
 using System.Net;
 using System.Text.Json;
-using CommunityLibrary.API.Exceptions;
+using CommunityLibraryAPI.Exceptions;
 
-namespace CommunityLibrary.API.Middleware;
+namespace CommunityLibraryAPI.Middleware;
 
 public class GlobalExceptionMiddleware
 {

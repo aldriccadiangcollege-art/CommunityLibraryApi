@@ -1,8 +1,8 @@
-using CommunityLibrary.API.DTOs.Members;
-using CommunityLibrary.API.Services.Interfaces;
+using CommunityLibraryAPI.DTOs.Members;
+using CommunityLibraryAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CommunityLibrary.API.Controllers;
+namespace CommunityLibraryAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

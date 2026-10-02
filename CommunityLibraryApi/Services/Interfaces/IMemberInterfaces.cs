@@ -1,6 +1,6 @@
-using CommunityLibrary.API.DTOs.Members;
+using CommunityLibraryAPI.DTOs.Members;
 
-namespace CommunityLibrary.API.Services.Interfaces;
+namespace CommunityLibraryAPI.Services.Interfaces;
 
 public interface IMemberService
 {

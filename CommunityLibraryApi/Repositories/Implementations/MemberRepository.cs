@@ -1,9 +1,9 @@
-using CommunityLibrary.API.Data;
-using CommunityLibrary.API.Models.Entities;
-using CommunityLibrary.API.Repositories.Interfaces;
+using CommunityLibraryAPI.Data;
+using CommunityLibraryAPI.Models.Entities;
+using CommunityLibraryAPI.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace CommunityLibrary.API.Repositories.Implementations;
+namespace CommunityLibraryAPI.Repositories.Implementations;
 
 public class MemberRepository : IMemberRepository
 {

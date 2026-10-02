@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace CommunityLibrary.API.DTOs.Members;
+namespace CommunityLibraryAPI.DTOs.Members;
 
 public class UpdateMemberDto
 {

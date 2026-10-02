@@ -1,4 +1,4 @@
-namespace CommunityLibrary.API.Models.Entities;
+namespace CommunityLibraryAPI.Models.Entities;
 
 public class Member
 {

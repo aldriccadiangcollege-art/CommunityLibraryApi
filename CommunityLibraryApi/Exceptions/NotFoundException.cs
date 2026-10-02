@@ -1,4 +1,4 @@
-namespace CommunityLibrary.API.Exceptions;
+namespace CommunityLibraryAPI.Exceptions;
 
 public class NotFoundException : Exception
 {

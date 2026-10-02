@@ -1,10 +1,10 @@
-using CommunityLibrary.API.DTOs.Members;
-using CommunityLibrary.API.Exceptions;
-using CommunityLibrary.API.Models.Entities;
-using CommunityLibrary.API.Repositories.Interfaces;
-using CommunityLibrary.API.Services.Interfaces;
+using CommunityLibraryAPI.DTOs.Members;
+using CommunityLibraryAPI.Exceptions;
+using CommunityLibraryAPI.Models.Entities;
+using CommunityLibraryAPI.Repositories.Interfaces;
+using CommunityLibraryAPI.Services.Interfaces;
 
-namespace CommunityLibrary.API.Services.Implementations;
+namespace CommunityLibraryAPI.Services.Implementations;
 
 public class MemberService : IMemberService
 {
