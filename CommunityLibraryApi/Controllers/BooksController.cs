@@ -15,7 +15,7 @@ public class BooksController : ControllerBase
         _service = service;
     }
 
-    // GET: api/books
+
     [HttpGet]
     public async Task<ActionResult<List<BookDto>>> GetAll()
     {
@@ -24,7 +24,7 @@ public class BooksController : ControllerBase
         return Ok(books);
     }
 
-    // GET: api/books/1
+
     [HttpGet("{id:int}")]
     public async Task<ActionResult<BookDto>> GetById(int id)
     {
@@ -36,7 +36,7 @@ public class BooksController : ControllerBase
         return Ok(book);
     }
 
-    // POST: api/books
+ 
     [HttpPost]
     public async Task<ActionResult<BookDto>> Create(
         CreateBookDto dto)
@@ -65,7 +65,7 @@ public class BooksController : ControllerBase
             book);
     }
 
-    // PUT: api/books/1
+   
     [HttpPut("{id:int}")]
     public async Task<IActionResult> Update(
         int id,
@@ -96,7 +96,7 @@ public class BooksController : ControllerBase
         return NoContent();
     }
 
-    // DELETE: api/books/1
+  
     [HttpDelete("{id:int}")]
     public async Task<IActionResult> Delete(int id)
     {
