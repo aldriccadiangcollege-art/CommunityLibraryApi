@@ -1,8 +1,8 @@
-using CommunityLibraryApi.Data;
-using CommunityLibraryApi.Repositories.Implementations;
-using CommunityLibraryApi.Repositories.Interfaces;
-using CommunityLibraryApi.Services.Implementations;
-using CommunityLibraryApi.Services.Interfaces;
+using CommunityLibraryAPI.Data;
+using CommunityLibraryAPI.Repositories.Implementations;
+using CommunityLibraryAPI.Repositories.Interfaces;
+using CommunityLibraryAPI.Services.Implementations;
+using CommunityLibraryAPI.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

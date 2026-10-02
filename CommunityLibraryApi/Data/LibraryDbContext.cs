@@ -1,7 +1,7 @@
-﻿using CommunityLibraryApi.Models.Entities;
+﻿using CommunityLibraryAPI.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CommunityLibraryApi.Data;
+namespace CommunityLibraryAPI.Data;
 
 public class LibraryDbContext : DbContext
 {

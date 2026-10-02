@@ -1,4 +1,4 @@
-﻿namespace CommunityLibraryApi.Models.DTOs.Loans
+﻿namespace CommunityLibraryAPI.Models.DTOs.Loans
 {
     public class LoanResponseDto
     {

@@ -1,4 +1,5 @@
-﻿namespace CommunityLibraryApi.Models.Entities;
+﻿
+namespace CommunityLibraryAPI.Models.Entities;
 
 public class Member
 {
@@ -11,4 +12,3 @@ public class Member
 
     public ICollection<Loan> Loans { get; set; } = new List<Loan>();
 }
-

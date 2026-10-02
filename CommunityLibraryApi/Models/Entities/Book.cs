@@ -1,4 +1,4 @@
-﻿namespace CommunityLibraryApi.Models.Entities;
+﻿namespace CommunityLibraryAPI.Models.Entities;
 
 public class Book
 {
