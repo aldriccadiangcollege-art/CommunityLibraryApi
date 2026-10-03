@@ -19,7 +19,7 @@ CREATE TABLE Members (
     FullName NVARCHAR(100) NOT NULL,
     Email NVARCHAR(100) NOT NULL UNIQUE,
     MembershipType NVARCHAR(20) NOT NULL CHECK (MembershipType IN ('Student', 'Faculty')),
-    DateJoined DATETIME2 NOT NULL DEFAULT GETDATE(),
+    DateJoined DATETIME2 NOT NULL DEFAULT GETUTCDATE(), 
     IsActive BIT NOT NULL DEFAULT 1
 );
 
@@ -27,7 +27,7 @@ CREATE TABLE Loans (
     Id INT IDENTITY(1,1) PRIMARY KEY,
     BookId INT NOT NULL,
     MemberId INT NOT NULL,
-    BorrowedDate DATETIME2 NOT NULL DEFAULT GETDATE(),
+    BorrowedDate DATETIME2 NOT NULL DEFAULT GETUTCDATE(), 
     DueDate DATETIME2 NOT NULL,
     ReturnedDate DATETIME2 NULL,
     Status NVARCHAR(20) NOT NULL CHECK (Status IN ('Borrowed', 'Returned', 'Overdue')),
