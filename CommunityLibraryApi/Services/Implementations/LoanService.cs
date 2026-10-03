@@ -43,7 +43,7 @@ public class LoanService : ILoanService
         if (activeLoans >= 3)
             return new(ServiceResultType.Conflict, null, "Member has reached the maximum limit of 3 active loans.");
 
-        var borrowedDate = DateTime.Now;
+        var borrowedDate = DateTime.UtcNow;
         var loan = new Loan
         {
             BookId = dto.BookId,
@@ -71,7 +71,7 @@ public class LoanService : ILoanService
         if (loan.Status == "Returned" || loan.ReturnedDate.HasValue)
             return new(ServiceResultType.Conflict, null, "This loan has already been returned.");
 
-        loan.ReturnedDate = DateTime.Now;
+        loan.ReturnedDate = DateTime.UtcNow;
         loan.Status = "Returned";
         loan.Book.AvailableCopies++;
 
