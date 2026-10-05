@@ -1,8 +1,8 @@
-﻿using CommunityLibraryApi.Models.DTOs.Books;
-using CommunityLibraryApi.Services.Interfaces;
+﻿using CommunityLibraryAPI.Models.DTOs.Books;
+using CommunityLibraryAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CommunityLibraryApi.Controllers;
+namespace CommunityLibraryAPI.Controllers;
 
 [ApiController]
 [Route("api/books")]

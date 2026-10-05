@@ -1,6 +1,6 @@
-﻿using CommunityLibraryApi.Models.DTOs.Books;
+﻿using CommunityLibraryAPI.Models.DTOs.Books;
 
-namespace CommunityLibraryApi.Services.Interfaces;
+namespace CommunityLibraryAPI.Services.Interfaces;
 
 public interface IBookService
 {

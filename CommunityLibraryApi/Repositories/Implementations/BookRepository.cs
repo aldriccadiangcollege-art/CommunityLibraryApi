@@ -1,15 +1,15 @@
-﻿using CommunityLibraryApi.Data;
-using CommunityLibraryApi.Models.Entities;
-using CommunityLibraryApi.Repositories.Interfaces;
+﻿using CommunityLibraryAPI.Data;
+using CommunityLibraryAPI.Models.Entities;
+using CommunityLibraryAPI.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
-namespace CommunityLibraryApi.Repositories.Implementations;
+namespace CommunityLibraryAPI.Repositories.Implementations;
 
 public class BookRepository : IBookRepository
 {
-    private readonly AppDbContext _context;
+    private readonly LibraryDbContext _context;
 
-    public BookRepository(AppDbContext context)
+    public BookRepository(LibraryDbContext context)
     {
         _context = context;
     }

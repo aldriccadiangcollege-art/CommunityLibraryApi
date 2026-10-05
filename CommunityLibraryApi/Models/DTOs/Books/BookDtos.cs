@@ -1,4 +1,4 @@
-﻿namespace CommunityLibraryApi.Models.DTOs.Books;
+﻿namespace CommunityLibraryAPI.Models.DTOs.Books;
 
 public class BookDto
 {

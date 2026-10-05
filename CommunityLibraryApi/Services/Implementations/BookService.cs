@@ -1,9 +1,9 @@
-﻿using CommunityLibraryApi.Models.DTOs.Books;
-using CommunityLibraryApi.Models.Entities;
-using CommunityLibraryApi.Repositories.Interfaces;
-using CommunityLibraryApi.Services.Interfaces;
+﻿using CommunityLibraryAPI.Models.DTOs.Books;
+using CommunityLibraryAPI.Models.Entities;
+using CommunityLibraryAPI.Repositories.Interfaces;
+using CommunityLibraryAPI.Services.Interfaces;
 
-namespace CommunityLibraryApi.Services.Implementations;
+namespace CommunityLibraryAPI.Services.Implementations;
 
 public class BookService : IBookService
 {

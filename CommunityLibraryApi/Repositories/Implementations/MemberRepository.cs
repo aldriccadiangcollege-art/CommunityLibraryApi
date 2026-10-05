@@ -7,9 +7,9 @@ namespace CommunityLibraryAPI.Repositories.Implementations;
 
 public class MemberRepository : IMemberRepository
 {
-    private readonly AppDbContext _context;
+    private readonly LibraryDbContext _context;
 
-    public MemberRepository(AppDbContext context) => _context = context;
+    public MemberRepository(LibraryDbContext context) => _context = context;
 
     public async Task<IEnumerable<Member>> GetAllAsync()
         => await _context.Members.AsNoTracking().ToListAsync();

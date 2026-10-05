@@ -1,6 +1,6 @@
-﻿using CommunityLibraryApi.Models.Entities;
+﻿using CommunityLibraryAPI.Models.Entities;
 
-namespace CommunityLibraryApi.Repositories.Interfaces;
+namespace CommunityLibraryAPI.Repositories.Interfaces;
 
 public interface IBookRepository
 {
