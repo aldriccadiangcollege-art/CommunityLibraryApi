@@ -32,7 +32,7 @@ Repositories — Data Access Layers encapsulated behind abstraction folders.
        Interfaces (IBookRepository, ILoanRepository, IMemberRepository)
 Services — Isolated core logic processing engine layers.
        Implementations (BookService, LoanService, MemberService)
-       Interfaces (IBookService, ILoanService, IMemberInterfaces)
+       Interfaces (IBookService, ILoanService)
 
 
 
