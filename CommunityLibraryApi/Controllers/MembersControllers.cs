@@ -16,9 +16,15 @@ public class MembersController : ControllerBase
     public async Task<ActionResult<IEnumerable<MemberDto>>> GetAll()
         => Ok(await _memberService.GetAllMembersAsync());
 
-    [HttpGet("{id}")]
+    [HttpGet("{id:int}")]
     public async Task<ActionResult<MemberDto>> GetById(int id)
-        => Ok(await _memberService.GetMemberByIdAsync(id));
+    {
+        var member = await _memberService.GetMemberByIdAsync(id);
+        if (member == null)
+            return NotFound(new { message = "Member not found." });
+
+        return Ok(member);
+    }
 
     [HttpPost]
     public async Task<ActionResult<MemberDto>> Create([FromBody] CreateMemberDto dto)
